@@ -29,14 +29,14 @@
 
 <!-- font-mfizz -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
+
+<!-- Devicon -->
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 <!-- Main css -->
 <link rel="stylesheet" href="css/style.css">
 
-<style media="screen">
-  .app-icon{
-
-  }
-</style>
+<link rel="stylesheet" href="css/my_style.css">
 
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
@@ -143,7 +143,8 @@
                          <h2>what i do.</h2>
                     </div>
                </div>
-
+          </div>
+          <div class="row">
                <div class="wow fadeInUp col-md-4 col-sm-6" data-wow-delay="0.4s">
                     <!-- SERVICE THUMB -->
                     <div class="service-thumb">
@@ -182,7 +183,8 @@
                          <h2>what i know.</h2>
                     </div>
                </div>
-
+          </div>
+          <div class="row">
                <div class="wow fadeInUp col-md-2 col-sm-4 col-xs-6" data-wow-delay="0.4s">
                     <!-- SERVICE THUMB -->
                     <div class="service-thumb">
@@ -230,7 +232,8 @@
                               <h4 class="font-playfair">MongoDB</h4>
                     </div>
                </div>
-
+          </div>
+          <div class="row">
                <div class="wow fadeInUp col-md-2 col-sm-4 col-xs-6" data-wow-delay="0.4s">
                     <!-- SERVICE THUMB -->
                     <div class="service-thumb">
@@ -242,8 +245,27 @@
                <div class="wow fadeInUp col-md-2 col-sm-4 col-xs-6" data-wow-delay="0.4s">
                     <!-- SERVICE THUMB -->
                     <div class="service-thumb">
+                         <i class="fa icon-jquery"></i>
+                              <h4 class="font-playfair">jQuery</h4>
+                    </div>
+               </div>
+
+               <div class="wow fadeInUp col-md-2 col-sm-4 col-xs-6" data-wow-delay="0.4s">
+                    <!-- SERVICE THUMB -->
+                    <div class="service-thumb">
                          <i class="fa icon-reactjs"></i>
                               <h4 class="font-playfair">React</h4>
+                    </div>
+               </div>
+
+               <div class="wow fadeInUp col-md-2 col-sm-4 col-xs-6" data-wow-delay="0.4s">
+                    <!-- SERVICE THUMB -->
+                    <div class="service-thumb">
+                        <i class="fa icon-mobile-device" style="position: relative;">
+                          <i class="fa icon-reactjs" style="font-size: 10px; position: absolute; top: 20%; left: 44%; font-size: 30px;"></i>
+                        </i>
+
+                              <h4 class="font-playfair">React Native</h4>
                     </div>
                </div>
 
@@ -262,7 +284,8 @@
                               <h4 class="font-playfair">C</h4>
                     </div>
                </div>
-
+          </div>
+          <div class="row">
                <div class="wow fadeInUp col-md-2 col-sm-4 col-xs-6" data-wow-delay="0.4s">
                     <!-- SERVICE THUMB -->
                     <div class="service-thumb">
@@ -276,6 +299,14 @@
                     <div class="service-thumb">
                          <i class="fa icon-css3-alt"></i>
                               <h4 class="font-playfair">CSS3</h4>
+                    </div>
+               </div>
+
+               <div class="wow fadeInUp col-md-2 col-sm-4 col-xs-6" data-wow-delay="0.4s">
+                    <!-- SERVICE THUMB -->
+                    <div class="service-thumb">
+                         <i class="fa icon-bootstrap"></i>
+                              <h4 class="font-playfair">Bootstrap</h4>
                     </div>
                </div>
 
@@ -302,7 +333,8 @@
                               <h4 class="font-playfair">Node.js</h4>
                     </div>
                </div>
-
+          </div>
+          <div class="row">
                <div class="wow fadeInUp col-md-2 col-sm-4 col-xs-6" data-wow-delay="0.4s">
                     <!-- SERVICE THUMB -->
                     <div class="service-thumb">
@@ -331,9 +363,9 @@
           <div class="row">
 
                 <div class="col-md-12 col-sm-12 text-center">
-                    <h5 class="font-playfair">I am available for freelance projects.</h5>
-                    <h2>Let's <span class="font-playfair">work</span> together indeed!</h2>
-                    <a href="#contact" class="smoothScroll btn btn-default section-btn">Get quotes</a>
+                    <h5 class="font-playfair">I am available for full-time hire.</h5>
+                    <h2>Let's <span class="font-playfair">work</span> together!</h2>
+                    <a href="#contact" class="smoothScroll btn btn-default section-btn">Hire Me</a>
                </div>
 
           </div>
@@ -350,63 +382,74 @@
                <div class="col-md-12 col-sm-12">
                     <!-- SECTION TITLE -->
                     <div class="section-title">
-                         <h2>work.</h2>
-                         <p>Brand Identity, web design and front-end development.</p>
+                         <h2>projects.</h2>
+                         <p>Examples of previous work.</p>
                     </div>
                </div>
 
                <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.4s">
                     <!-- WORK THUMB -->
+                    <a href="http://basejumpapp.herokuapp.com/" target="_blank">
                     <div class="work-thumb">
-                         <a href="images/work-1.jpg" class="image-popup">
-                              <img src="images/work-1.jpg" class="img-responsive" alt="Work">
-                         </a>
+                              <img src="images/basejump.gif" class="img-responsive" alt="Work">
+                         <div class="project-overlay">
+                           <h5>
+                             Basejump
+                           </h5>
+                           <p>A full stack clone of Basecamp made with Ruby on Rails and React.</p>
+                         </div>
+                         <div class="project-icons">
+                           <i class="devicon-rails-plain-wordmark colored"></i>
+                           <i class="devicon-react-original-wordmark colored"></i>
+                           <i class="devicon-sass-original colored"></i>
+                           <i class="devicon-webpack-plain colored"></i>
+                           <i class="devicon-babel-plain colored"></i>
+                         </div>
                     </div>
+                  </a>
                </div>
 
                <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.6s">
                     <!-- WORK THUMB -->
+                    <a href="https://hkumar1993.github.io/Git-Ready/" target="_blank">
                     <div class="work-thumb">
-                         <a href="images/work-1.jpg" class="image-popup">
-                              <img src="images/work-1.jpg" class="img-responsive" alt="Work">
-                         </a>
+                        <img src="images/gitready.gif" class="img-responsive" alt="Work">
+                        <div class="project-overlay">
+                          <h5>
+                            Git Ready!
+                          </h5>
+                          <p>A Front-End Git Tutorial project replicating React and Redux.</p>
+                        </div>
+                        <div class="project-icons">
+                          <i class="devicon-jquery-plain-wordmark colored"></i>
+                          <i class="devicon-webpack-plain colored"></i>
+                          <i class="devicon-babel-plain colored"></i>
+                        </div>
                     </div>
+                  </a>
                </div>
 
                <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.8s">
                     <!-- WORK THUMB -->
+                    <a href="http://guardian-angel.herokuapp.com/" target="_blank">
                     <div class="work-thumb">
-                         <a href="images/work-1.jpg" class="image-popup">
-                              <img src="images/work-1.jpg" class="img-responsive" alt="Work">
-                         </a>
-                    </div>
-               </div>
+                        <img src="images/angel.gif" class="img-responsive" alt="Work">
+                         <div class="project-overlay">
+                           <h5>
+                             Guardian Angel
+                           </h5>
+                           <p>An app based social network used to help connect good samaritans to the needy </p>
+                         </div>
+                         <div class="project-icons">
+                           <i class="devicon-react-original-wordmark colored"></i>
+                           <i class="devicon-nodejs-plain colored"></i>
+                           <i class="devicon-mongodb-plain-wordmark colored"></i>
+                           <i class="devicon-apple-original colored"></i>
+                           <i class="devicon-android-plain-wordmark colored"></i>
 
-               <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="0.8s">
-                    <!-- WORK THUMB -->
-                    <div class="work-thumb">
-                         <a href="images/work-1.jpg" class="image-popup">
-                              <img src="images/work-1.jpg" class="img-responsive" alt="Work">
-                         </a>
+                         </div>
                     </div>
-               </div>
-
-               <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="1.0s">
-                    <!-- WORK THUMB -->
-                    <div class="work-thumb">
-                         <a href="images/work-1.jpg" class="image-popup">
-                              <img src="images/work-1.jpg" class="img-responsive" alt="Work">
-                         </a>
-                    </div>
-               </div>
-
-               <div class="wow fadeInUp col-md-4 col-sm-4" data-wow-delay="1.2s">
-                    <!-- WORK THUMB -->
-                    <div class="work-thumb">
-                         <a href="images/work-1.jpg" class="image-popup">
-                              <img src="images/work-1.jpg" class="img-responsive" alt="Work">
-                         </a>
-                    </div>
+                    </a>
                </div>
 
           </div>
@@ -473,13 +516,13 @@
 
                <div class="col-md-23 col-sm-23">
                     <div class="wow fadeInUp footer-copyright" data-wow-delay="0.2s">
-                         <p class="font-playfair">© 2016 Branten Template | All Rights Reserved.</p>
+                         <p class="font-playfair">Harsh Kumar</p>
                     </div>
                     <!-- SOCIAL ICONS -->
                     <ul class="social-icon">
-                         <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="#" class="fa fa-twitter"></a></li>
-                         <li class="wow fadeInUp" data-wow-delay="0.6s"><a href="#" class="fa fa-dribbble"></a></li>
-                         <li class="wow fadeInUp" data-wow-delay="0.8s"><a href="#" class="fa fa-linkedin"></a></li>
+                      <li class="wow fadeInUp" data-wow-delay="0.4s"><a href="https://github.com/hkumar1993" class="fa fa-github"></a></li>
+                      <li class="wow fadeInUp" data-wow-delay="0.8s"><a href="https://www.linkedin.com/in/hkumar1993/" class="fa fa-linkedin"></a></li>
+                      <li class="wow fadeInUp" data-wow-delay="0.8s"><a href="https://www.linkedin.com/in/hkumar1993/" class="fa fa-angellist"></a></li>
                     </ul>
                </div>
 
