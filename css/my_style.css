@@ -2,6 +2,11 @@
   position: relative;
 }
 
+.work-thumb > h3{
+  text-align: center;
+  width: 100%;
+}
+
 .project-overlay{
   position: absolute;
   height: 100%;
@@ -9,7 +14,8 @@
   top: 0;
   left: 0;
   background-color: rgba(0,0,0,0.5);
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
+  margin-top: 62px;
   opacity: 0;
   transition: all 1s;
 }
