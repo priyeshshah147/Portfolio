@@ -3,7 +3,7 @@
     "use strict";
 
         // PRE loader
-        $(window).load(function(){
+        $('#home').load(function(){
           $('.preloader').fadeOut(1000); // set duration in brackets    
         });
 
