@@ -38,6 +38,19 @@ body section {
     z-index: 5;
 }
 
+.intro ul {
+    list-style: none;
+    margin: 1rem auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.intro ul img {
+    height: 2rem;
+}
+
 .intro h1 {
     font-size: 5rem;
     margin: 0 0 1rem 0;
@@ -80,6 +93,9 @@ ul.project-list {
 
 .project-list li {
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+
     width: 45%;
     max-width: 300px;
     background-color: #EAE1DF;
@@ -91,6 +107,7 @@ ul.project-list {
 .project-list li div {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     padding: 0 1rem 1rem 1rem;
 }
 
@@ -100,7 +117,8 @@ ul.project-list {
 }
 
 .project-list li img {
-    width: 100%;
+    height: 15rem;
+    align-self: center;
 }
 
 .contact {
@@ -143,10 +161,6 @@ ul.project-list {
     .harsh-img {
         display: none;
     }
-
-    .project-list li {
-        /* max-width: 350px; */
-    }
 }
 
 /* Generic Mobile Portrait */
@@ -170,6 +184,10 @@ ul.project-list {
     .project-list li {
         max-width: 500px;
     }
+
+    .project-list li img {
+       height: 20rem;
+    }
 }
 
 /* 4k */
@@ -185,6 +203,10 @@ ul.project-list {
     .project-list li {
         min-width: 500px;
         max-width: 800px;
+    }
+
+    .project-list li img {
+       height: 25rem;
     }
 
 }
