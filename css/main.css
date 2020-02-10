@@ -163,6 +163,12 @@ ul.project-list {
     }
 }
 
+@media screen and (max-width: 650px) {
+    .project-list li {
+        width: 80%;
+    }
+}
+
 /* Generic Mobile Portrait */
 @media screen and (max-width: 500px) {
 
@@ -172,10 +178,6 @@ ul.project-list {
 
     .intro span {
         font-size: 1.5rem;
-    }
-
-    .project-list li {
-        width: 80%;
     }
 }
 
