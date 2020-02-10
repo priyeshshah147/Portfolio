@@ -173,6 +173,10 @@ ul.project-list {
     .intro span {
         font-size: 1.5rem;
     }
+
+    .project-list li {
+        width: 80%;
+    }
 }
 
 /* 2k */
