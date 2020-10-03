@@ -1,0 +1,54 @@
+@import './colors.scss';
+$mobile-width: 640px;
+$tablet-width: 1023px;
+/* Would be 1024 however want this to show desktop view in iPad landscape mode */
+
+@mixin accessible-text {
+  position: absolute;
+  left: -10000000px;
+}
+
+@mixin unset-accessible-text {
+  position: unset;
+  left: unset;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+#root {
+  display: grid;
+  grid-template-columns: 20rem auto;
+  height: 100vh;
+
+  @media screen and (max-width: $tablet-width) {
+    grid-template-columns: 5rem auto;
+  }
+
+  @media screen and (max-width: $mobile-width) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem auto;
+  }
+}
+
+.accessible-text {
+  @include accessible-text;
+}
+
+@import '../components/header/header.scss';
