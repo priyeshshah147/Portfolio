@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+@import './colors.scss';
+$mobile-width: 640px;
+$tablet-width: 1023px;
+/* Would be 1024 however want this to show desktop view in iPad landscape mode */
+
+@mixin accessible-text {
+    position: absolute;
+    left: -10000000px;
+}
+
+@mixin unset-accessible-text {
+    position: unset;
+    left: unset;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+#root {
+    display: grid;
+    grid-template-columns: 20rem auto;
+    height: 100vh;
+
+    // @media screen and (max-width: $tablet-width) {
+    //     grid-template-columns: 5rem auto;
+    // }
+
+    @media screen and (max-width: $tablet-width) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 5rem auto;
+    }
+}
+
+.accessible-text {
+    @include accessible-text;
+}
+
+@import '../components/header/header.scss';
+@import '../components/skills/skills.scss';
+@import '../components/projects/projects.scss';
+@import '../components/experience/experience.scss';
+
+main {
+    height: 100%;
+    overflow: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+main section {
+    h2 {
+        color: $queen-blue;
+        border-bottom: 1px solid $queen-blue;
+        font-size: 2.5rem
+    }
+
+    h3 {
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+
+    p {
+        text-align: justify;
+        font-weight: 600;
+    }
+
+    margin-bottom: 2rem;
+}
+
+#about p {
+    margin-bottom: 0.25rem;
+
+    &:last-child {
+        margin-top: 0.25rem;
+    }
+}
+
+#contact {
+
+    ul {
+        width: 100%;
+        padding: 2rem;
+        margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+
+    a {
+        padding: 0.5rem 2rem;
+        color: $black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+
+        i {
+            font-size: 3rem;
+            transition: transform 0.5s;
+        }
+
+        span {
+            color: $queen-blue;
+            margin-top: 0.5rem;
+            text-decoration: underline;
+        }
+
+        &:hover, &:focus {
+            i {
+                transform: scale(1.2);
+            }
+        }
+    }
+}

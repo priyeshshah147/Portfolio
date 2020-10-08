@@ -1,0 +1,186 @@
+header {
+    background: $queen-blue;
+    padding: 1rem;
+    box-sizing: border-box;
+    transition: all 1s;
+    z-index: 5;
+    overflow: hidden;
+
+    #name-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: $white;
+        max-height: 5rem;
+        height: 100%;
+
+        h1 {
+            position: absolute;
+            left: 7rem;
+            font-family: Lato, sans-serif;
+        }
+
+        img {
+            height: 100%;
+            max-width: 100%;
+            transition: all 0.5s;
+        }
+
+    }
+
+    .expand-header-button {
+        display: none;
+        box-sizing: border-box;
+        z-index: 10;
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            margin: 2rem 0;
+            a {
+                color: $white;
+                font-size: 1.5rem;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+        }
+        @media screen and (max-width: $tablet-width) {
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            li {
+                margin: 1rem 0;
+            }
+        }
+    }
+
+    // @media screen and (max-width: $tablet-width) {
+    //     padding: 0.25rem;
+    //     overflow: hidden;
+    //     width: 100%;
+
+    //     #name-wrapper {
+    //         position: relative;
+    //         h1 {
+    //             font-size: 0.25rem;
+    //             left: 0;
+    //             top: 6rem;
+    //             opacity: 0;
+    //             transition:
+    //                 opacity 0.5s,
+    //                 left 1s,
+    //                 top 1s,
+    //                 font-size 1s;
+    //         }
+    //     }
+
+
+    //     .expand-header-button {
+    //         display: initial;
+    //         height: 5rem;
+    //         width: 2.5rem;
+
+    //         position: fixed;
+    //         left: calc(5rem - 1px);
+    //         top: 0.25rem;
+
+    //         border: none;
+    //         background:
+    //             no-repeat center/100% url('../../static/img/expand.svg')
+    //             $queen-blue;
+    //         border-radius: 0 5px 5px 0;
+
+    //         transition: left 1s;
+    //     }
+
+    // }
+
+    @media screen and (max-width: $tablet-width) {
+        height: 100%;
+
+        .expand-header-button {
+            display: initial;
+            height: 4rem;
+            width: 4rem;
+
+            position: fixed;
+            left: unset;
+            right: 0.5rem;
+            top: 0.5rem;
+
+            border: 1px solid transparentize($white, 0.8);
+            background:
+                no-repeat center/60% url('../../static/img/menu.svg')
+                $queen-blue;
+            border-radius: 5px;
+
+            transition: none;
+        }
+
+        #name-wrapper {
+            justify-content: flex-start;
+            h1 {
+                font-size: 1.75rem;
+                opacity: 1;
+                left: 5.25rem;
+                top: 1.25rem;
+                transition: all 1s;
+            }
+        }
+
+    }
+}
+
+header.expanded {
+    // @media screen and (max-width: $tablet-width) {
+    //     width: 20rem;
+
+    //     #name-wrapper {
+    //         h1 {
+    //             position: absolute;
+    //             font-size: 2rem;
+    //             left: 6rem;
+    //             top: 1.25rem;
+    //             opacity: 1;
+    //             transition:
+    //                 opacity 0.5s 0.5s,
+    //                 left 1s,
+    //                 top 1s,
+    //                 font-size 1s;
+    //         }
+    //     }
+
+    //     .expand-header-button {
+    //         left: calc(20rem - 1px);
+    //         transform: rotate(180deg);
+    //         border-radius: 5px 0 0 5px;
+    //     }
+    // }
+
+
+    @media screen and (max-width: $tablet-width) {
+        width: unset;
+        height: 22rem;
+
+        #name-wrapper {
+            h1 {
+                left: 7.25rem;
+                top: 2.25rem;
+            }
+        }
+
+        .expand-header-button {
+            left: unset;
+        }
+    }
+}
