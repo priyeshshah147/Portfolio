@@ -3,7 +3,6 @@ import {
   Header,
   Skills,
   Projects,
-  Experience,
 } from './components';
 import resume from './static/pdf/resume.pdf';
 
