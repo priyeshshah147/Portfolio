@@ -16,16 +16,16 @@ const Experience = () => {
                     >
                         <ul>
                             <li>
-                                Primarily worked as a Front End Engineer working with React and Redux. I worked on various business and educational simulations hosted on the Forio Epicenter Platform. I worked on over 16 simulations worth over $1M in revenue.
+                                Primarily worked as a Front End Engineer working with React and Redux.
                             </li>
                             <li>
-                                Worked on maintaining and updating our internal JavaScript libraries used to connect our front end code to our platform API's.
+                                Maintained and updated internal JavaScript libraries.
                             </li>
                             <li>
-                                Created a Node.js based Command Line Interface (CLI) that generated our default project boilerplate as well as template components that adhered to company standards. This helped reduce around 16 to 32 dev hours during the initial phases of every project, as well as additional time saved during project development with the component template generator.
+                                Created a Node.js based Command Line Interface (CLI) that generated our default project boilerplate as well as template components.
                             </li>
                             <li>
-                                Helped improve general Accessibility Standards for projects and worked heavily in upgrading and maintaining accessible UI's adhering to WCAG 2.1 AA standards.
+                                Helped improve general Accessibility Standards for projects.
                             </li>
                         </ul>
                     </Job>
@@ -38,13 +38,13 @@ const Experience = () => {
                     >
                         <ul>
                             <li>
-                                Designed and managed the production of over 1000 DIY solar powered lights that were distribured to over 20 electricity deprived remote villages in Malaysia
+                                Designed and managed the production of over 1000 DIY solar powered lights.
                             </li>
                             <li>
-                                My project helped transition the company from a non-profit to a 7-figure social enterprise in Malaysia.
+                                Helped transition the company from a non-profit to a 7-figure social enterprise in Malaysia.
                             </li>
                             <li>
-                                Managed all aspects of the planning and building process, including materials procurement, location scouting, team management, volunteer engagement, event planning, weekly scrums, and more.
+                                Managed all aspects of the event and building process.
                             </li>
                             <li>
                                 Hosted 16 volunteer events, managed groups of 60 to 150 volunteers and staff per event.
