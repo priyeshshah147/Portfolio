@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import { useToggle } from '../../utils/hooks'
 
 const Job = ({
@@ -11,7 +11,6 @@ const Job = ({
     endTime = 'Present',
 }) => {
     const [expanded, toggleExpanded] = useToggle(defaultOpen);
-    const [expandedOnce, setToggled] = useToggle(false);
     const accordion = useRef(null);
 
     // const toggle = () => {

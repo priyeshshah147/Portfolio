@@ -2,7 +2,6 @@ import React from 'react';
 import logo from '../../static/img/logo.png';
 
 const About = () => {
-    const yearsOfExp = 3;
     return (
         <section id="about">
             <div className="content">
