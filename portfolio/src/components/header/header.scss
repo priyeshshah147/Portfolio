@@ -49,11 +49,20 @@ header {
             border-radius: 5px;
             padding: 0.75rem 1rem;
             box-sizing: border-box;
+
+            &:hover, &:focus {
+                border-color: $white;
+            }
         }
 
         a.btn {
             color: $light-blue;
             border-color: $light-blue;
+
+            &:hover, &:focus {
+                color: $white;
+                border-color: $white;
+            }
         }
     }
 
