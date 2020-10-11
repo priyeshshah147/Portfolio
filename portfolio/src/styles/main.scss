@@ -92,7 +92,7 @@ main section:not(#splash) {
 
 main section:nth-child(even) {
     background: transparentize($light-blue, 0.8);
-    color: $ivory;
+    // color: $ivory;
 }
 
 @media screen and (max-width: $small-mobile-width) {
@@ -108,20 +108,20 @@ main section:nth-child(even) {
 }
 
 @media screen and (min-width: $twok-width) {
-    html {
-        font-size: 1.5em;
-    }
+    // html {
+    //     font-size: 1em;
+    // }
 
-    main section:not(#splash) {
-        & > .content {
-            max-width: 1366px;
-        }
-    }
+    // main section:not(#splash) {
+    //     & > .content {
+    //         max-width: 1366px;
+    //     }
+    // }
 }
 
 @media screen and (min-width: $fourk-width) {
     html {
-        font-size: 2em;
+        font-size: 1.5em;
     }
     main section:not(#splash) {
         & > .content {
