@@ -1,25 +1,42 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
+import { useToggle } from '../../utils/hooks'
 
 const Job = ({
     company,
     role,
     location,
     startTime,
-    endTime = 'Present',
+    defaultOpen,
     children,
+    endTime = 'Present',
 }) => {
+    const [expanded, toggleExpanded] = useToggle(defaultOpen);
+    const [expandedOnce, setToggled] = useToggle(false);
+    const accordion = useRef(null);
+
+    // const toggle = () => {
+    //     if (!expandedOnce) {
+    //         setToggled(true);
+    //     }
+    // }
+
     return (
         <li className="job">
-            <div className="job-details">
-                <div className="job-header">
-                    <h3>{company}</h3>
-                    <span>{role}</span>
+            <button onClick={toggleExpanded} className={expanded ? 'btn-expanded' : ''}>
+                <h3>{company} - <span>{role}</span></h3>{expanded ? null : <span> - Click to expand</span>}
+            </button>
+            <div
+                className={`job-container ${expanded ? 'expanded' : ''}`}
+                style={expanded ? { maxHeight: `${accordion?.current?.scrollHeight}px` } : { maxHeight: '0px' }}
+                ref={accordion}
+            >
+                <div className="job-details">
+                    <span>{startTime} - {endTime}</span>
+                    <span>{location}</span>
                 </div>
-                <span>{location}</span>
-                <span>{startTime} - {endTime}</span>
-            </div>
-            <div className="job-description">
-                {children}
+                <div className="job-description">
+                    {children}
+                </div>
             </div>
         </li>
     )

@@ -1,186 +1,127 @@
 header {
-    background: $queen-blue;
-    padding: 1rem;
+    max-width: unset !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background: $dark-blue;
+
+    position: sticky;
+    top: 0;
+
+    padding: 0 1rem;
     box-sizing: border-box;
-    transition: all 1s;
     z-index: 5;
-    overflow: hidden;
+
 
     #name-wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        color: $white;
-        max-height: 5rem;
         height: 100%;
-
-        h1 {
-            position: absolute;
-            left: 7rem;
-            font-family: Lato, sans-serif;
-        }
-
-        img {
-            height: 100%;
-            max-width: 100%;
-            transition: all 0.5s;
-        }
-
     }
 
-    .expand-header-button {
+    img {
+        margin: 0.5rem;
+        height: calc(100% - 1rem);
+        mix-blend-mode: luminosity;
+    }
+
+    button {
         display: none;
-        box-sizing: border-box;
-        z-index: 10;
     }
 
-    nav {
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
+    nav ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
 
         li {
-            margin: 2rem 0;
-            a {
-                color: $white;
-                font-size: 1.5rem;
-                font-weight: bold;
-                text-decoration: none;
-            }
-
+            margin: 0 0.25rem;
+            font-size: 1rem;
         }
-        @media screen and (max-width: $tablet-width) {
-            ul {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-            }
 
-            li {
-                margin: 1rem 0;
-            }
+        li a {
+            color: white;
+        }
+
+        li a {
+            text-decoration: none;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            padding: 0.75rem 1rem;
+            box-sizing: border-box;
+        }
+
+        a.btn {
+            color: $light-blue;
+            border-color: $light-blue;
         }
     }
 
-    // @media screen and (max-width: $tablet-width) {
-    //     padding: 0.25rem;
-    //     overflow: hidden;
-    //     width: 100%;
+    @media screen and (max-width: $mobile-width) {
+        transition: background 0.5s;
 
-    //     #name-wrapper {
-    //         position: relative;
-    //         h1 {
-    //             font-size: 0.25rem;
-    //             left: 0;
-    //             top: 6rem;
-    //             opacity: 0;
-    //             transition:
-    //                 opacity 0.5s,
-    //                 left 1s,
-    //                 top 1s,
-    //                 font-size 1s;
-    //         }
-    //     }
-
-
-    //     .expand-header-button {
-    //         display: initial;
-    //         height: 5rem;
-    //         width: 2.5rem;
-
-    //         position: fixed;
-    //         left: calc(5rem - 1px);
-    //         top: 0.25rem;
-
-    //         border: none;
-    //         background:
-    //             no-repeat center/100% url('../../static/img/expand.svg')
-    //             $queen-blue;
-    //         border-radius: 0 5px 5px 0;
-
-    //         transition: left 1s;
-    //     }
-
-    // }
-
-    @media screen and (max-width: $tablet-width) {
-        height: 100%;
-
-        .expand-header-button {
-            display: initial;
-            height: 4rem;
-            width: 4rem;
-
-            position: fixed;
-            left: unset;
-            right: 0.5rem;
-            top: 0.5rem;
-
-            border: 1px solid transparentize($white, 0.8);
-            background:
-                no-repeat center/60% url('../../static/img/menu.svg')
-                $queen-blue;
-            border-radius: 5px;
-
-            transition: none;
+        button {
+            display: block;
+            background: no-repeat center/100% url('../../static/img/menu.svg');
+            border: none;
+            z-index: 15;
         }
 
-        #name-wrapper {
-            justify-content: flex-start;
-            h1 {
-                font-size: 1.75rem;
-                opacity: 1;
-                left: 5.25rem;
-                top: 1.25rem;
-                transition: all 1s;
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+            padding-right: 10rem;
+            position: fixed;
+            background: $light-blue;
+            top: -50rem;
+            width: 100vw;
+            // height: 17rem;
+            padding-bottom: 1rem;
+            transition: top 0.5s ease;
+            left: 0;
+            box-shadow: 0px 10px 10px black;
+
+            a.btn {
+                color: white;
+                border-color: white;
             }
         }
 
+        nav li {
+            padding: 1rem 0;
+            width: 100%;
+            text-align: center;
+
+            &:hover, &:focus-within {
+                background: darken($light-blue, 4);
+            }
+
+        }
+
+
+        &.expanded {
+
+            background: $light-blue;
+            nav ul {
+                top: calc(5rem - 1px);
+            }
+        }
     }
 }
 
-header.expanded {
-    // @media screen and (max-width: $tablet-width) {
-    //     width: 20rem;
+header + .menu-overlay {
+    content: ' ';
+    position: fixed;
+    pointer-events: none;
+    height: 100vh;
+    width: 100vw;
+    background: transparent;
+    top: 0;
+    left: 0;
+    transition: background 0.5s;
+}
 
-    //     #name-wrapper {
-    //         h1 {
-    //             position: absolute;
-    //             font-size: 2rem;
-    //             left: 6rem;
-    //             top: 1.25rem;
-    //             opacity: 1;
-    //             transition:
-    //                 opacity 0.5s 0.5s,
-    //                 left 1s,
-    //                 top 1s,
-    //                 font-size 1s;
-    //         }
-    //     }
-
-    //     .expand-header-button {
-    //         left: calc(20rem - 1px);
-    //         transform: rotate(180deg);
-    //         border-radius: 5px 0 0 5px;
-    //     }
-    // }
-
-
-    @media screen and (max-width: $tablet-width) {
-        width: unset;
-        height: 22rem;
-
-        #name-wrapper {
-            h1 {
-                left: 7.25rem;
-                top: 2.25rem;
-            }
-        }
-
-        .expand-header-button {
-            left: unset;
-        }
-    }
+header.expanded + .menu-overlay {
+    pointer-events: all;
+    background: transparentize($black, 0.5);
 }

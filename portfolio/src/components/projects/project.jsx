@@ -12,21 +12,25 @@ const Project = ({
 }) => {
     return (
         <li className={`project ${reverse ? 'reverse' : ''} ${className}`}>
-            <div className="img-container" style={{ backgroundImage: `url(${img})`}}>
-                {/* <img src={img} alt={`Screenshot of ${title}`} /> */}
+            <div className="project-img">
+                <img src={img} alt={`Screenshot of ${title}`} />
             </div>
             <div className="content-container">
                 <h3>{title}</h3>
-                {children}
-                <div className="project-links">
-                    <a href={url} rel="noopener noreferrer" target="_blank">
-                        <i className="fas fa-desktop" title="Live Site" aria-hidden="true"></i>
-                        Live Site
-                    </a>
-                    <a href={github} rel="noopener noreferrer" target="_blank">
-                        <i className="fab fa-github" title="GitHub" aria-hidden="true"></i>
-                        GitHub
-                    </a>
+                <div className="terminal-content">
+                    <div className="project-content">
+                        {children}
+                    </div>
+                    <div className="project-links">
+                        <a href={github} rel="noopener noreferrer" target="_blank">
+                            <i className="fab fa-github" title="GitHub" aria-hidden="true"></i>
+                            <span className="accessible-text">GitHub</span>
+                        </a>
+                        <a href={url} rel="noopener noreferrer" target="_blank">
+                            <i className="fas fa-external-link-alt" title="Live Site" aria-hidden="true"></i>
+                            <span className="accessible-text">Live Site</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </li>
