@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from '../../static/img/logo.png'
 import { useToggle } from '../../utils/hooks';
 import resume from '../../static/pdf/resume.pdf';
 
+const noop = () => {};
+
 const Header = () => {
-    const [expanded, toggleExpanded] = useToggle(false);
+    const [expanded, toggleExpanded, setExpanded] = useToggle(false);
+    const [isMobile, setMobile] = useState(false);
+
+    useEffect(() => {
+        const checkWindowWidth = () => window.innerWidth < 1024 ? setMobile(true) : setMobile(false);
+        window.addEventListener('resize', checkWindowWidth);
+        return () => window.removeEventListener('resize', checkWindowWidth);
+    }, []);
 
     return (
         <>
@@ -28,26 +37,62 @@ const Header = () => {
                     </button>
                     <ul>
                         <li>
-                            <a href="#about" onClick={toggleExpanded} onFocus={toggleExpanded} onBlur={toggleExpanded}>About Me</a>
+                            <a
+                                href="#about"
+                                onClick={isMobile ? toggleExpanded : noop}
+                                onFocus={isMobile ? toggleExpanded : noop}
+                                onBlur={isMobile ? toggleExpanded : noop}
+                            >
+                                About
+                                Me</a>
                         </li>
                         <li>
-                            <a href="#experience" onClick={toggleExpanded} onFocus={toggleExpanded} onBlur={toggleExpanded}>Experience</a>
+                            <a
+                                href="#experience"
+                                onClick={isMobile ? toggleExpanded : noop}
+                                onFocus={isMobile ? toggleExpanded : noop}
+                                onBlur={isMobile ? toggleExpanded : noop}
+                            >
+                                Experience
+                            </a>
                         </li>
                         <li>
-                            <a href="#projects" onClick={toggleExpanded} onFocus={toggleExpanded} onBlur={toggleExpanded}>Projects</a>
+                            <a
+                                href="#projects"
+                                onClick={isMobile ? toggleExpanded : noop}
+                                onFocus={isMobile ? toggleExpanded : noop}
+                                onBlur={isMobile ? toggleExpanded : noop}
+                            >
+                                Projects
+                            </a>
                         </li>
                         <li>
-                            <a href="#skills" onClick={toggleExpanded} onFocus={toggleExpanded} onBlur={toggleExpanded}>Skills</a>
+                            <a
+                                href="#skills"
+                                onClick={isMobile ? toggleExpanded : noop}
+                                onFocus={isMobile ? toggleExpanded : noop}
+                                onBlur={isMobile ? toggleExpanded : noop}
+                            >
+                                Skills
+                            </a>
                         </li>
                         <li>
-                            <a href="#contact" onClick={toggleExpanded} onFocus={toggleExpanded} onBlur={toggleExpanded}>Contact Me</a>
+                            <a
+                                href="#contact"
+                                onClick={isMobile ? toggleExpanded : noop}
+                                onFocus={isMobile ? toggleExpanded : noop}
+                                onBlur={isMobile ? toggleExpanded : noop}
+                            >
+                                Contact
+                                Me</a>
                         </li>
                         <li>
                             <a
                                 href={resume}
                                 download="Harsh_Kumar_Resume"
                                 className="btn"
-                                onFocus={toggleExpanded} onBlur={toggleExpanded}
+                                onFocus={isMobile ? toggleExpanded : noop}
+                                onBlur={isMobile ? toggleExpanded : noop}
                             >
                                 <span>Resume</span>
                             </a>

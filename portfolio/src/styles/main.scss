@@ -76,15 +76,17 @@ h2 {
 }
 
 main section:not(#splash) {
-    padding-top: 5rem;
-    min-height: 50vh;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 
     & > .content {
-        padding: 5rem;
+        padding: 6rem 5rem 5rem 5rem ;
         margin: 0 auto;
         max-width: $tablet-width;
         font-size: 1.25rem;
         line-height: 2rem;
+        height: calc(100% - 10rem);
     }
 }
 

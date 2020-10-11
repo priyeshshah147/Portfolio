@@ -23,16 +23,20 @@ const Job = ({
         <li className="job">
             <button onClick={toggleExpanded} className={expanded ? 'btn-expanded' : ''}>
                 <h3>{company} - <span>{role}</span></h3>{expanded ? null : <span> - Click to expand</span>}
+                {/* <div className="job-details"> */}
+                    <span>&nbsp;{startTime} - {endTime}</span>
+                    <span>&nbsp;{location}</span>
+                {/* </div> */}
             </button>
             <div
                 className={`job-container ${expanded ? 'expanded' : ''}`}
                 style={expanded ? { maxHeight: `${accordion?.current?.scrollHeight}px` } : { maxHeight: '0px' }}
                 ref={accordion}
             >
-                <div className="job-details">
+                {/* <div className="job-details">
                     <span>{startTime} - {endTime}</span>
                     <span>{location}</span>
-                </div>
+                </div> */}
                 <div className="job-description">
                     {children}
                 </div>
