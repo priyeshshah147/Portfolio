@@ -20,7 +20,7 @@ const About = () => {
                         Shortly after returning to the US in 2017, I went back to my coding roots, joining Forio shortly after graduating from App Academy, an intensive coding bootcamp in San Francisco focussing in Full Stack Web Development.
                     </p> */}
                     <p>
-                        Over the past 3 years, I have primarily been a Front End Engineer at Forio, with an increasing specialization and focus on Web Accessibility. I also have been working on updating and maintaing internal JavaScript libraries.
+                        Over the past 3 years, I have primarily been a Front End Engineer at Forio, with an increasing specialization and focus on Web Accessibility. I also have been working on updating and maintaining internal JavaScript libraries.
                     </p>
                     {/* <p>
                         I have additionally been working with the following technologies recently:

@@ -37,16 +37,16 @@ const Contact = () => {
                             <span>Email</span>
                         </a>
                     </li>
-                    <li>
-                        <a
-                            href={resume}
-                            download="Harsh Kumar Resume"
-                        >
-                            <i className="fas fa-file-alt" aria-hidden="true" title="Resume"></i>
-                            <span>Resume</span>
-                        </a>
-                    </li>
                 </ul>
+                <div className="resume-link">
+                    <a
+                        href={resume}
+                        download="Harsh Kumar Resume"
+                    >
+                        <i className="fas fa-file-alt" aria-hidden="true" title="Resume"></i>
+                        <span>Download Resume</span>
+                    </a>
+                </div>
                 <div className="contact-form">
                     Or use the contact form on the bottom right.
                 </div>
