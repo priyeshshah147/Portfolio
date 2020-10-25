@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Harsh Kumar's Personal Portfolio Website
 
-## Available Scripts
+## Version 3 - October 2020
 
-In the project directory, you can run:
+This version of my portfolio is the first documented version of this Portfolio. I moved this project from being a basic HTML / CSS site to a full React powered app.
+This was done to:
+  - Showcase my skills in React
+  - Create (somewhat) cleaner code 
+  - Create components that could be reused and extended for future additions to this portfolio
+  - `TODO`: Create a templatized version of this portfolio that will take in `JSON` files and easily generate a new portfolio
+  
+I worked on this project early October 2020 as part of my submission for [Code With Friends: Fall 2020](https://codewithfriends.io/events/cwf-fall-2020/).
 
-### `yarn start`
+This new portfolio design was partially inspired by [Brittany Chiang](https://github.com/bchiang7)s [personal website](https://brittanychiang.com/).
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Cloning / Forking this project
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+*Plaigirism is bad.* Feel free to clone / fork this project and edit it for your own needs. I only request that you attribute me in your source code and README, and link back to my site, [hkumar.me](https://www.hkumar.me)
 
-### `yarn test`
+### Setup & Installation
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). As such, installation should be pretty straighforward. 
 
-### `yarn build`
+Assuming you are using Node `v10+`
+In the root folder, run
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For development, run
+```
+npm start
+```
+Which will start your development server on localhost:3000. The site should have hot reloading working out of the box.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+To build, run
+```
+npm run build
+```
+which will build this to the `/build` folder.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Deploying to Github Pages
+If you will be hosting this on github pages, this project comes with the `gh-pages` package installed that should deploy to github pages for you.
+If you haven't already, enable Github pages in your repo settings. 
 
-### `yarn eject`
+If you have a custom domain for your site, you do not need to make any changes.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If you do not have a custom domain yet, you will need to edit `package.json` and add a `homepage` key, with the value being
+```
+// package.json
+{
+  ....
+  "homepage": "http://{github-username}.github.io/{repo-name}"
+}
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+To deploy, simply run
+```
+npm run deploy
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This will run the `build` command, and push the `build` folder to a `gh-pages` branch in your remote repository. It should also automatically update your repo settings to use the `gh-pages` branch as your deployed branch. If it doesn't make sure to update that in your repo settings.
