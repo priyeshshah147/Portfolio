@@ -15,7 +15,14 @@ This new portfolio design was partially inspired by [Brittany Chiang](https://gi
 
 ### Cloning / Forking this project
 
-*Plaigirism is bad.* Feel free to clone / fork this project and edit it for your own needs. I only request that you attribute me in your source code and README, and link back to my site, [hkumar.me](https://www.hkumar.me)
+__*Plaigirism is bad.*__ Feel free to clone / fork this project and edit it for your own needs. I only request that you attribute me in your source code and README, and link back to my site, [hkumar.me](https://www.hkumar.me)
+
+### IMPORTANT
+This project uses a [Formspree](https://formspree.io) form. You can find the script related to this in a `script` tag inside `/public/index.html`. Make sure to either
+  a) Remove this script
+  b) Put in your own Formspree action url
+  
+If you do not, any responses on the form will come to me, not to you.
 
 ### Setup & Installation
 
