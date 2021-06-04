@@ -29,7 +29,7 @@ const Projects = () => {
                     <Project
                         title="BaseJump!"
                         className="base"
-                        url="http://www.basejump.tech/"
+                        url="https://basejumpapp.herokuapp.com/"
                         github="https://github.com/hkumar1993/BaseJump"
                         img={basejumpImg}
                         reverse
