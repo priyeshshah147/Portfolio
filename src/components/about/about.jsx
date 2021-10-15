@@ -13,15 +13,15 @@ const About = () => {
                         Hello! My name is Priyesh, and I am a software engineer based in the Michigan.
                     </p>
                     <p>
-                        I am passionate about coding, and enjoy building projects that live both on the web as well as the physical world. I love to create things that can have a tangible impact on people that use them.
+                        I am passionate about coding, and enjoy building projects that help create solutions for people through the use of technology.
                     </p>
-                    {/* <p>
-                        I graduated with a degree in Mechatronic Engineer, and was the Project Manager for Liter of Light Malaysia, one of Malaysia's largest volunteer powered social projects in 2016.
-                        Shortly after returning to the US in 2017, I went back to my coding roots, joining Forio shortly after graduating from App Academy, an intensive coding bootcamp in San Francisco focussing in Full Stack Web Development.
-                    </p> */}
+
                     <p>
-                        Over the past 3 years, I have primarily been a Front End Engineer at Forio, with an increasing specialization and focus on Web Accessibility. I also have been working on updating and maintaining internal JavaScript libraries.
+                        I have recently graduated from App Academy, an intensive 1000hr coding bootcamp where I learnt a greate amount of technologies that enhanced my software engineering skills. 
                     </p>
+
+                    <p>Prior to App Academy I graduated with a degree in Mechatronic Engineer, there after I worked as Technical Sales Manager for a machinery retail outlet and I also became a Project Lead for Liter of Light(a NGO that helps provide solar lights in poor areas.</p>
+
 
                 </div>
                 <div className="img-container">
