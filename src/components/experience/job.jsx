@@ -33,10 +33,7 @@ const Job = ({
                 style={expanded ? { maxHeight: `${accordion?.current?.scrollHeight}px` } : { maxHeight: '0px' }}
                 ref={accordion}
             >
-                {/* <div className="job-details">
-                    <span>{startTime} - {endTime}</span>
-                    <span>{location}</span>
-                </div> */}
+
                 <div className="job-description">
                     {children}
                 </div>

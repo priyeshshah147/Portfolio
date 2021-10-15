@@ -1,7 +1,8 @@
 import React from 'react';
 import Project from './project';
-import gitReadyImg from '../../static/img/gitready.png';
-import basejumpImg from '../../static/img/basejump.png';
+import getseyImg from '../../static/img/getsey_site.JPG';
+import someShareImg from '../../static/img/somashare_site.JPG';
+import archeryImg from '../../static/img/archery_site.JPG'
 
 const Projects = () => {
     return (
@@ -10,40 +11,59 @@ const Projects = () => {
                 <h2>Projects</h2>
                 <ul>
                     <Project
-                        title="GitReady!"
-                        className="git"
-                        url="https://www.gitready.today/"
-                        github="https://github.com/hkumar1993/Git-Ready"
-                        img={gitReadyImg}
-                    >
-                        <p>
-                            An online game built to teach users the basics of git using easy to understand concepts and visuals.
-                            This game was inspired by games such as <a href="https://flexboxfroggy.com/" target="_blank" rel="noopener noreferrer">Flebox Froggy</a> and <a href="https://cssgridgarden.com/" target="_blank" rel="noopener noreferrer">Grid Garden</a>.
-                        </p>
-                        <ul className="technologies">
-                            <li>HTML/CSS</li>
-                            <li>jQuery</li>
-                            <li>Flux</li>
-                        </ul>
-                    </Project>
-                    <Project
-                        title="BaseJump!"
-                        className="base"
-                        url="https://basejumpapp.herokuapp.com/"
-                        github="https://github.com/hkumar1993/BaseJump"
-                        img={basejumpImg}
+                        title="Getsey"
+                        className="getsey"
+                        url="https://getsey.herokuapp.com/#/"
+                        github="https://github.com/priyeshshah147/Getsey"
+                        img={getseyImg}
                         reverse
                     >
                         <p>
-                            Basejump is a Full Stack clone of <a href="https://basecamp.com" target="_blank" rel="noopener noreferrer">Basecamp</a>. You can create Teams or Projects, create To-Dos, Message Boards, and Scheduling events for each Team or Project, similar to Basecamp.
+                            Getsey is a Full Stack clone of <a href="https://www.etsy.com/" target="_blank" rel="noopener noreferrer">Etsy</a>. which allows users see the trending products, search for any product name, add to cart and/or purchase it and add reviews.
                         </p>
                         <ul className="technologies">
                             <li>React</li>
                             <li>Redux</li>
-                            <li>SCSS</li>
-                            <li>Ruby on Rails</li>
+                            <li>JavaScript</li>
+                            <li>Ruby</li>
+                            <li>Rails</li>
                         </ul>
                     </Project>
+                    <Project
+                        title="SomaShare"
+                        className="soma"
+                        url="https://somashare.herokuapp.com/#/"
+                        github="https://github.com/SymmetricInDesign/SomaShare"
+                        img={someShareImg}
+                        reverse
+                    >
+                        <p>
+                            SomaShare is a web application which allows users to post educational resources for the purposes of self-improvement or home schooling. Posts are displayed based on high ratings. 
+                        </p>
+                        <ul className="technologies">
+                            <li>MongoDB</li>
+                            <li>Express</li>
+                            <li>React</li>
+                            <li>Node</li>
+                        </ul>
+                    </Project>
+                    <Project
+                        title="Archery 2.0"
+                        className="archery"
+                        url="https://priyeshshah147.github.io/Archery-2.0/"
+                        github="https://github.com/priyeshshah147/Archery-2.0"
+                        img={archeryImg}
+                    >
+                        <p>
+                            An original JavaScript game in which player shoots the archery board to obtain based on accuracy of their aim. The higher the score the harder the game becomes.
+                        </p>
+                        <ul className="technologies">
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>Canvas</li>
+                        </ul>
+                    </Project>
+                    
                 </ul>
             </div>
         </section>

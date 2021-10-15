@@ -1,5 +1,7 @@
 import React from 'react';
 import Skill from './skill';
+import { Icon } from '@iconify/react';
+
 
 const Skills = () => {
     return (
@@ -20,14 +22,44 @@ const Skills = () => {
                         title="JavaScript"
                     />
                     <Skill
-                        fa="fas fa-universal-access"
-                        title="Accessibility"
+                        fa="fab fa-react"
+                        title="React"
+                    />
+
+                    <Skill
+                        fa="fas fa-gem"
+                        title="Ruby"
+                    />
+                    
+                    
+                    
+                        {/* <Icon className="fab fa-react" icon="akar-icons:redux-fill" 
+                            
+                        /> */}
+                    
+                    <Skill
+                        fa="fab fa-aws"
+                        title="Amazon Web Service"
                     />
                     <Skill
                         fa="fab fa-git-alt"
                         title="Git"
                     />
+
                     <Skill
+                        fa="fab fa-sass"
+                        title="SASS/SCSS"
+                    />
+                    <Skill
+                        fa="fab fa-node"
+                        title="Node.js"
+                    />
+                    <Skill
+                        fa="fab fa-java" 
+                        title="Java"
+                    />
+
+                    {/* <Skill
                         fa="fab fa-react"
                         title="React"
                     />
@@ -46,7 +78,7 @@ const Skills = () => {
                     <Skill
                         fa="fas fa-gem"
                         title="Ruby"
-                    />
+                    /> */}
                 </ul>
             </div>
         </section>

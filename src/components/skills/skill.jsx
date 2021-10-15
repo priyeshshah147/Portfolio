@@ -3,6 +3,7 @@ import React from 'react';
 const Skill = ({
     fa,
     title,
+
 }) => {
     return (
         <li className="skill">

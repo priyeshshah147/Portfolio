@@ -8,46 +8,41 @@ const Experience = () => {
                 <h2>Experience</h2>
                 <ul className="experiences-list">
                     <Job
-                        company="Forio"
-                        role="Software Engineer"
-                        location="San Francisco, CA"
-                        startTime="Feb 2018"
+                        company="Krish Tradind C."
+                        role="Sales Manager"
+                        location="Nairobi, Kenya"
+                        startTime="August 2016"
+                        endTime="Jan 2020"
                         defaultOpen
                     >
                         <ul>
                             <li>
-                                Primarily worked as a Front End Engineer working with React and Redux.
+                                Analyzed and recommended agricultural equipment to prospective buyers by understanding customers’ farming capacity and needs
                             </li>
                             <li>
-                                Maintained and updated internal JavaScript libraries.
+                                Ensured import of durable and efficient equipment by comparing  samples from different suppliers/manufacturers and checking supplies every quarter
                             </li>
                             <li>
-                                Created a Node.js based Command Line Interface (CLI) that generated our default project boilerplate as well as template components.
-                            </li>
-                            <li>
-                                Helped improve general Accessibility Standards for projects.
+                                Strategized increase of sales by 50% using the help digital marketing, and  planning and training sales representatives better understand agriculture machines
                             </li>
                         </ul>
                     </Job>
                     <Job
-                        company="Incitement"
-                        role="Project Manager"
-                        location="Kuala Lumpur, Malaysia"
-                        startTime="Oct 2015"
-                        endTime="Jan 2017"
+                        company="Liter of Light Kenya"
+                        role="Project Lead"
+                        location="Nairobi, Kenya"
+                        startTime="Jan 2017"
+                        endTime="Feb 2019"
                     >
                         <ul>
                             <li>
-                                Designed and managed the production of over 1000 DIY solar powered lights.
+                                Established Liter of Light Kenya team with 5 members and scout rural areas in need of electricity
                             </li>
                             <li>
-                                Helped transition the company from a non-profit to a 7-figure social enterprise in Malaysia.
+                                Generated videos upon scouting various rural areas in Kenya and created proposals to obtain funding
                             </li>
                             <li>
-                                Managed all aspects of the event and building process.
-                            </li>
-                            <li>
-                                Hosted 16 volunteer events, managed groups of 60 to 150 volunteers and staff per event.
+                                Executed  2 successful projects, by planning, training and developing more than 500 solar lights for more than 300 homes 
                             </li>
                         </ul>
                     </Job>

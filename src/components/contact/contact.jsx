@@ -9,7 +9,7 @@ const Contact = () => {
                 <ul>
                     <li>
                         <a
-                            href="https://www.linkedin.com/in/hkumar1993/"
+                            href="http://www.linkedin.com/in/priyesh-shah-bb612688"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -19,7 +19,7 @@ const Contact = () => {
                     </li>
                     <li>
                         <a
-                            href="https://www.github.com/hkumar1993"
+                            href="https://github.com/priyeshshah147"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -29,7 +29,7 @@ const Contact = () => {
                     </li>
                     <li>
                         <a
-                            href="mailto:harsh@hkumar.me"
+                            href="mailto:priyesh.shah147@gmail.com"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -41,7 +41,7 @@ const Contact = () => {
                 <div className="resume-link">
                     <a
                         href={resume}
-                        download="Harsh Kumar Resume"
+                        download="Priyesh Shah Resume"
                     >
                         <i className="fas fa-file-alt" aria-hidden="true" title="Resume"></i>
                         <span>Download Resume</span>

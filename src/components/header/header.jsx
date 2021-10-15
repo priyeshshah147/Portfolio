@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../../static/img/logo.png'
+import logo from '../../static/img/logo1.png'
 import { useToggle } from '../../utils/hooks';
 import resume from '../../static/pdf/resume.pdf';
 
@@ -21,9 +21,9 @@ const Header = () => {
                 className={expanded ? 'expanded' : ''}
                 aria-expanded={expanded}
             >
-                <section id="name-wrapper">
+                <section id="name-wrapper" class="logo-header" >
                     <img src={logo} aria-hidden="true" alt="" />
-                    <h1 className="accessible-text">Harsh Kumar</h1>
+                    <h1 className="accessible-text">Priyesh Shah</h1>
                 </section>
                 <nav>
                     <button
@@ -89,7 +89,7 @@ const Header = () => {
                         <li>
                             <a
                                 href={resume}
-                                download="Harsh_Kumar_Resume"
+                                download="Priyesh_Shah_resume"
                                 className="btn"
                                 onFocus={isMobile ? toggleExpanded : noop}
                                 onBlur={isMobile ? toggleExpanded : noop}

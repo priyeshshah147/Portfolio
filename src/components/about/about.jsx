@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../static/img/logo.png';
+import logo from '../../static/img/logo2.png';
 
 const About = () => {
     return (
@@ -10,7 +10,7 @@ const About = () => {
                 </h2>
                 <div>
                     <p>
-                        Hello! My name is Harsh, and I am a software engineer based in the San Francisco Bay Area.
+                        Hello! My name is Priyesh, and I am a software engineer based in the Michigan.
                     </p>
                     <p>
                         I am passionate about coding, and enjoy building projects that live both on the web as well as the physical world. I love to create things that can have a tangible impact on people that use them.
@@ -22,16 +22,7 @@ const About = () => {
                     <p>
                         Over the past 3 years, I have primarily been a Front End Engineer at Forio, with an increasing specialization and focus on Web Accessibility. I also have been working on updating and maintaining internal JavaScript libraries.
                     </p>
-                    {/* <p>
-                        I have additionally been working with the following technologies recently:
-                    </p>
-                    <ul>
-                        <li>JavaScript (ES6+)</li>
-                        <li>HTML & CSS, SASS/SCSS</li>
-                        <li>React</li>
-                        <li>Node.js</li>
-                        <li>Python</li>
-                    </ul> */}
+
                 </div>
                 <div className="img-container">
                     <img src={logo} alt="" aria-hidden="true"/>

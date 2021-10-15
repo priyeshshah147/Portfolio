@@ -32,7 +32,7 @@ const Splash = () => {
                 </div>
                 <div className="name">
                     <Typed
-                        text="Harsh Kumar"
+                        text="Priyesh Shah"
                         typingSpeed={20}
                         startTyping={animationIdx === 2}
                         showCursor={animationIdx === 2}
@@ -42,16 +42,15 @@ const Splash = () => {
                 </div>
                 <span className={`code-line ${animationIdx >= 3 ? 'active' : ''}`}>
                     <Typed
-                        text="I am a software engineer based in the San Francisco Bay Area, specializing in Front End Development, website accessibility, and user centric design."
+                        text="I am a software engineer based in the Michigan, interested in building impactful products. Enjoys hiking and table-tennis."
                         typingSpeed={20}
                         startTyping={animationIdx === 3}
                         showCursor={animationIdx === 3}
                         typingDelay={500}
-                        // onComplete={incrementIdx}
                     />
                 </span>
             </div>
-            {/* <button onClick={() => turnOn()}>Start</button> */}
+
         </section>
     )
 }

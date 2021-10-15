@@ -46,6 +46,11 @@
         }
     }
 
+    .job > button:hover{
+        background-color:rgb(59, 136, 79);
+        transform: scale(1.01);
+    }
+
     .job-container {
         margin: 0;
         overflow: hidden;
