@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6661bd89fc940580e1943ce3b8f84f02",
+    "revision": "de19a6da5027178a12440ee4bbd6374f",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.2e126fe7.chunk.css"
   },
   {
-    "revision": "a1e6913b83b0d106854f",
+    "revision": "e55d341ad39540683bd5",
     "url": "/static/css/main.22806afd.chunk.css"
   },
   {
@@ -20,12 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.156a99ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a1e6913b83b0d106854f",
-    "url": "/static/js/main.1ef1c7ab.chunk.js"
+    "revision": "e55d341ad39540683bd5",
+    "url": "/static/js/main.54cc5cd1.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
     "url": "/static/js/runtime-main.19ccc7f6.js"
+  },
+  {
+    "revision": "b6cfa4ff10b56d99d238ca8624897917",
+    "url": "/static/media/Priyesh_Shah_resume.b6cfa4ff.pdf"
   },
   {
     "revision": "b582aa6e14951ff451aac23399965446",
@@ -106,10 +110,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3b3123eb923828299f8382e1e8772b95",
     "url": "/static/media/menu.3b3123eb.svg"
-  },
-  {
-    "revision": "b6cfa4ff10b56d99d238ca8624897917",
-    "url": "/static/media/resume.b6cfa4ff.pdf"
   },
   {
     "revision": "94409686d42b17c249bda09577d5903e",
