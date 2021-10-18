@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../../static/pdf/resume.pdf';
+import resume from '../../static/pdf/Priyesh_Shah_resume.pdf';
 
 const Contact = () => {
     return (
@@ -47,9 +47,9 @@ const Contact = () => {
                         <span>Download Resume</span>
                     </a>
                 </div>
-                <div className="contact-form">
+                {/* <div className="contact-form">
                     Or use the contact form on the bottom right.
-                </div>
+                </div> */}
             </div>
         </section>
     )

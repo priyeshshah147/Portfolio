@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../../static/img/logo1.png'
 import { useToggle } from '../../utils/hooks';
-import resume from '../../static/pdf/resume.pdf';
+import resume from '../../static/pdf/Priyesh_Shah_resume.pdf';
 
 const noop = () => {};
 
