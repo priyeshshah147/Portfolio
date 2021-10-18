@@ -24,9 +24,9 @@ const About = () => {
 
 
                 </div>
-                <div className="img-container">
+                {/* <div className="img-container">
                     <img src={logo} alt="" aria-hidden="true"/>
-                </div>
+                </div> */}
             </div>
         </section>
     );

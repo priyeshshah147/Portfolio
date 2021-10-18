@@ -58,9 +58,9 @@ const Projects = () => {
                             An original JavaScript game in which player shoots the archery board to obtain based on accuracy of their aim. The higher the score the harder the game becomes.
                         </p>
                         <ul className="technologies">
-                            <li>HTML/CSS</li>
+                            {/* <li>HTML/CSS</li>
                             <li>JavaScript</li>
-                            <li>Canvas</li>
+                            <li>Canvas</li> */}
                         </ul>
                     </Project>
                     
