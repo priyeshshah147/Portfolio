@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "http://priyeshshah147.github.io/Portfolio"
+    "homepage": "https://github.com/priyeshshah147/Portfolio"
   },
   
   "eslintConfig": {
