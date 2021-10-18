@@ -20,8 +20,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://github.com/priyeshshah147/Portfolio.git"
+    "homepage": "http://priyeshshah147.github.io/Portfolio"
   },
+  
   "eslintConfig": {
     "extends": "react-app"
   },
