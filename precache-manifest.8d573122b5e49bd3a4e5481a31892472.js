@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7195ba2fc052a5d6543c149e4eedf55f",
+    "revision": "b97a70a79322be9e78a62aa13394bb1e",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "46215c02c890ffe3bfee",
+    "revision": "63da1f2807f08fcf171e",
     "url": "/Portfolio/static/css/2.1de06a17.chunk.css"
   },
   {
-    "revision": "37833e5ab67ac421fc1d",
-    "url": "/Portfolio/static/css/main.893bee83.chunk.css"
+    "revision": "e91ac437e6b4d66abab3",
+    "url": "/Portfolio/static/css/main.8a8fa70e.chunk.css"
   },
   {
-    "revision": "46215c02c890ffe3bfee",
-    "url": "/Portfolio/static/js/2.ee5627a8.chunk.js"
+    "revision": "63da1f2807f08fcf171e",
+    "url": "/Portfolio/static/js/2.156a99ed.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Portfolio/static/js/2.ee5627a8.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.156a99ed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "37833e5ab67ac421fc1d",
-    "url": "/Portfolio/static/js/main.0b89befd.chunk.js"
+    "revision": "e91ac437e6b4d66abab3",
+    "url": "/Portfolio/static/js/main.b95aeb4f.chunk.js"
   },
   {
     "revision": "b83a37198ba343383876",
@@ -104,15 +104,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/logo1.efab3530.png"
   },
   {
-    "revision": "4efcfecaa8d0be4b35daea3e935c9cbd",
-    "url": "/Portfolio/static/media/logo2.4efcfeca.png"
-  },
-  {
     "revision": "3b3123eb923828299f8382e1e8772b95",
     "url": "/Portfolio/static/media/menu.3b3123eb.svg"
   },
   {
     "revision": "94409686d42b17c249bda09577d5903e",
     "url": "/Portfolio/static/media/somashare_site.94409686.JPG"
+  },
+  {
+    "revision": "bbcd6ab6b67f6e4973c0576f8a117754",
+    "url": "/Portfolio/static/media/work14.bbcd6ab6.png"
   }
 ]);

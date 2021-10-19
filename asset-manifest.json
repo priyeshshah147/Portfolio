@@ -1,33 +1,33 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.893bee83.chunk.css",
-    "main.js": "/Portfolio/static/js/main.0b89befd.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.0b89befd.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.8a8fa70e.chunk.css",
+    "main.js": "/Portfolio/static/js/main.b95aeb4f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.b95aeb4f.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
     "static/css/2.1de06a17.chunk.css": "/Portfolio/static/css/2.1de06a17.chunk.css",
-    "static/js/2.ee5627a8.chunk.js": "/Portfolio/static/js/2.ee5627a8.chunk.js",
-    "static/js/2.ee5627a8.chunk.js.map": "/Portfolio/static/js/2.ee5627a8.chunk.js.map",
+    "static/js/2.156a99ed.chunk.js": "/Portfolio/static/js/2.156a99ed.chunk.js",
+    "static/js/2.156a99ed.chunk.js.map": "/Portfolio/static/js/2.156a99ed.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.506188b0a3c17299af54bbc929103793.js": "/Portfolio/precache-manifest.506188b0a3c17299af54bbc929103793.js",
+    "precache-manifest.8d573122b5e49bd3a4e5481a31892472.js": "/Portfolio/precache-manifest.8d573122b5e49bd3a4e5481a31892472.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.1de06a17.chunk.css.map": "/Portfolio/static/css/2.1de06a17.chunk.css.map",
-    "static/css/main.893bee83.chunk.css.map": "/Portfolio/static/css/main.893bee83.chunk.css.map",
-    "static/js/2.ee5627a8.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ee5627a8.chunk.js.LICENSE.txt",
+    "static/css/main.8a8fa70e.chunk.css.map": "/Portfolio/static/css/main.8a8fa70e.chunk.css.map",
+    "static/js/2.156a99ed.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.156a99ed.chunk.js.LICENSE.txt",
     "static/media/Priyesh_Shah_resume.pdf": "/Portfolio/static/media/Priyesh_Shah_resume.b6cfa4ff.pdf",
     "static/media/archery_site.JPG": "/Portfolio/static/media/archery_site.b582aa6e.JPG",
     "static/media/all.css": "/Portfolio/static/media/fa-solid-900.8e39d5d5.svg",
     "static/media/getsey_site.JPG": "/Portfolio/static/media/getsey_site.4aeaa5e5.JPG",
     "static/media/logo1.png": "/Portfolio/static/media/logo1.efab3530.png",
-    "static/media/logo2.png": "/Portfolio/static/media/logo2.4efcfeca.png",
     "static/media/main.scss": "/Portfolio/static/media/menu.3b3123eb.svg",
-    "static/media/somashare_site.JPG": "/Portfolio/static/media/somashare_site.94409686.JPG"
+    "static/media/somashare_site.JPG": "/Portfolio/static/media/somashare_site.94409686.JPG",
+    "static/media/work14.png": "/Portfolio/static/media/work14.bbcd6ab6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e440ee5a.js",
     "static/css/2.1de06a17.chunk.css",
-    "static/js/2.ee5627a8.chunk.js",
-    "static/css/main.893bee83.chunk.css",
-    "static/js/main.0b89befd.chunk.js"
+    "static/js/2.156a99ed.chunk.js",
+    "static/css/main.8a8fa70e.chunk.css",
+    "static/js/main.b95aeb4f.chunk.js"
   ]
 }
