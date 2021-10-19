@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.eb9c0cde.chunk.css",
-    "main.js": "/Portfolio/static/js/main.54cc5cd1.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.54cc5cd1.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.893bee83.chunk.css",
+    "main.js": "/Portfolio/static/js/main.0b89befd.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.0b89befd.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
     "static/css/2.1de06a17.chunk.css": "/Portfolio/static/css/2.1de06a17.chunk.css",
-    "static/js/2.156a99ed.chunk.js": "/Portfolio/static/js/2.156a99ed.chunk.js",
-    "static/js/2.156a99ed.chunk.js.map": "/Portfolio/static/js/2.156a99ed.chunk.js.map",
+    "static/js/2.ee5627a8.chunk.js": "/Portfolio/static/js/2.ee5627a8.chunk.js",
+    "static/js/2.ee5627a8.chunk.js.map": "/Portfolio/static/js/2.ee5627a8.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.4fc88e628b6f621932621b3b899f8073.js": "/Portfolio/precache-manifest.4fc88e628b6f621932621b3b899f8073.js",
+    "precache-manifest.506188b0a3c17299af54bbc929103793.js": "/Portfolio/precache-manifest.506188b0a3c17299af54bbc929103793.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.1de06a17.chunk.css.map": "/Portfolio/static/css/2.1de06a17.chunk.css.map",
-    "static/css/main.eb9c0cde.chunk.css.map": "/Portfolio/static/css/main.eb9c0cde.chunk.css.map",
-    "static/js/2.156a99ed.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.156a99ed.chunk.js.LICENSE.txt",
+    "static/css/main.893bee83.chunk.css.map": "/Portfolio/static/css/main.893bee83.chunk.css.map",
+    "static/js/2.ee5627a8.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.ee5627a8.chunk.js.LICENSE.txt",
     "static/media/Priyesh_Shah_resume.pdf": "/Portfolio/static/media/Priyesh_Shah_resume.b6cfa4ff.pdf",
     "static/media/archery_site.JPG": "/Portfolio/static/media/archery_site.b582aa6e.JPG",
     "static/media/all.css": "/Portfolio/static/media/fa-solid-900.8e39d5d5.svg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.e440ee5a.js",
     "static/css/2.1de06a17.chunk.css",
-    "static/js/2.156a99ed.chunk.js",
-    "static/css/main.eb9c0cde.chunk.css",
-    "static/js/main.54cc5cd1.chunk.js"
+    "static/js/2.ee5627a8.chunk.js",
+    "static/css/main.893bee83.chunk.css",
+    "static/js/main.0b89befd.chunk.js"
   ]
 }
