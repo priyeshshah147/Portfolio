@@ -39,7 +39,7 @@ const Skills = () => {
                     
                     <Skill
                         fa="fab fa-aws"
-                        title="Amazon Web Service"
+                        title="aws"
                     />
                     <Skill
                         fa="fab fa-git-alt"

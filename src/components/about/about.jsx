@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../static/img/logo2.png';
+import logo from '../../static/img/work14.png';
 
 const About = () => {
     return (
@@ -24,10 +24,10 @@ const About = () => {
 
 
                 </div>
-                {/* <div className="img-container">
+                <div className="img-container">
                     <img src={logo} alt="" aria-hidden="true"/>
-                </div> */}
-            </div>
+                </div>
+            </div> 
         </section>
     );
 }
