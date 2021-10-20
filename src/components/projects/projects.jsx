@@ -38,7 +38,7 @@ const Projects = () => {
                         reverse
                     >
                         <p>
-                            SomaShare is a web application which allows users to post educational resources for the purposes of self-improvement or home schooling. Posts are displayed based on high ratings. 
+                        SomaShare is a web application which allows users to post and browse through educational resources for self-improvement or home schooling.
                         </p>
                         <ul className="technologies">
                             <li>MongoDB</li>
@@ -55,7 +55,7 @@ const Projects = () => {
                         img={archeryImg}
                     >
                         <p>
-                            An original JavaScript game in which player shoots the archery board to obtain based on accuracy of their aim. The higher the score the harder the game becomes.
+                        An original JavaScript game in which player shoots arrows to the board to obtain points based on aim. The higher the score the harder the game.
                         </p>
                         <ul className="technologies">
                             {/* <li>HTML/CSS</li>
