@@ -10,17 +10,17 @@ const About = () => {
                 </h2>
                 <div>
                     <p>
-                        Hello! My name is Priyesh, and I am a software engineer based in the Michigan.
+                        Hello! My name is Priyesh, and I am a software engineer based in Michigan.
                     </p>
                     <p>
                         I am passionate about coding, and enjoy building projects that help create solutions for people through the use of technology.
                     </p>
 
                     <p>
-                        I have recently graduated from App Academy, an intensive 1000hr coding bootcamp where I learnt a great amount of technologies that enhanced my software engineering skills. 
+                        I have recently graduated from App Academy, an intensive 1000hr coding bootcamp where I learnt a great amount of technologies that enhanced my software engineering skills.
                     </p>
 
-                    <p>Prior to App Academy I graduated with a degree in Mechatronic Engineer, there after I worked as Technical Sales Manager for a machinery retail outlet and I also became a Project Lead for Liter of Light(a NGO that helps provide solar lights in poor areas.</p>
+                    <p>Prior to App Academy I graduated with a degree in Mechatronic Engineering, thereafter I worked as Technical Sales Manager for a machinery retail outlet and I also became a Project Lead for Liter of Light(a NGO that helps provide solar lights in poor areas).</p>
 
 
                 </div>
