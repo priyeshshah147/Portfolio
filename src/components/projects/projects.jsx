@@ -19,7 +19,7 @@ const Projects = () => {
                         reverse
                     >
                         <p>
-                            Getsey is a Full Stack clone of <a href="https://www.etsy.com/" target="_blank" rel="noopener noreferrer">Etsy</a>. which allows users see the trending products, search for any product name, add to cart and/or purchase it and add reviews.
+                            Getsey is a Full Stack clone of <a href="https://www.etsy.com/" target="_blank" rel="noopener noreferrer">Etsy</a>, which allows users to browse trending products, search product by name, add product to cart, and add product reviews.
                         </p>
                         <ul className="technologies">
                             <li>React</li>
@@ -55,7 +55,7 @@ const Projects = () => {
                         img={archeryImg}
                     >
                         <p>
-                        An original JavaScript game in which player shoots arrows to the board to obtain points based on aim. The higher the score the harder the game.
+                        An original JavaScript game in which the player shoots arrows to the board to obtain points based on aim. The higher the score the harder the game.
                         </p>
                         <ul className="technologies">
                             {/* <li>HTML/CSS</li>
